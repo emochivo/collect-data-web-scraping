@@ -10,7 +10,7 @@ I collected data from the website Olympedia by web scraping, using the Python li
 I went to a page that reports medals by country at the website Olympedia ("https://www.olympedia.org/statistics/medal/country") and used Selenium to scrape data about Olympic medals won by different countries throughout history. I collected data such as country name, year, medal type (gold, silver, bronze), and total medals won. The scraped data was then written into a .csv file for further processing.
 
 #### 2. Create a PostgreSQL database and import data from the .csv file
-I connected to a PostgreSQL database using the psycopg2 library in Python. I created a table to store the Olympic medals data and imported the data from the .csv file into the database table for efficient querying and analysis.
+I connected to a PostgreSQL database using the psycopg2 library in Python. I created a table to store the Olympic medals data and imported the data from the .csv file into the database table for efficient querying and analysis. I already created the .csv file (olympic_medal_by_country.csv), but the Python script create_csv_from_web_scraping.py should be able to create the same .csv file. 
 
 #### 3. Visualize data with pandas, matplotlib, and seaborn
 To interpret the data, I used the Python library pandas to manipulate and analyze the data. I created various visualizations using matplotlib and seaborn to explore trends and patterns in Olympic medals won by different countries over the years. I made the following main visualizations:
@@ -36,3 +36,4 @@ I used Streamlit to create a simple dashboard that displays the visualizations c
 
 
 4. Open your web browser and go to the URL provided by Streamlit (usually http://localhost:8501) to view the dashboard.
+
