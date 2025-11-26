@@ -98,13 +98,8 @@ plt.title("Percentage of total medals in each country (unit: percent)" )
 figure4.subplots_adjust(left=-0.13)
 
 
-# show all figures
-# plt.show()
 
-
-
-
-### DASHBOARD???
+### CREATE THE DASHBOARD WITH STREAMLIT!! 
 
 st.title("Olympic Medals: A Simple Dashboard")
 st.subheader("A simple analysis of Olympic medals won by different countries throughout history")  
